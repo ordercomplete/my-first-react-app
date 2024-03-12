@@ -1,0 +1,31 @@
+.product-details {
+  border: 1px solid #ccc;
+  padding: 24px;
+  max-width: 300px;
+  border-radius: 8px;
+  display: grid;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.product-details__name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product-details__stock {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.product-details__stock--available {
+  color: green;
+}
+
+.product-details__stock--unavailable {
+  color: red;
+}
+
+.product-details__price {
+  color: #333;
+}
